@@ -40,6 +40,8 @@ a {
 
 .sign-up {
 	background: #4db8ff;
+	text-align: center;
+	margin-left: 10px;
 }
 
 li {
@@ -100,10 +102,6 @@ li {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-between;
-}
-
- {
-	display: 
 }
 
 .img1, .img2, .img3, .img4 {
@@ -171,12 +169,14 @@ input {
 }
 
 .newsletter-signup {
-	width: 60%;
-	padding-right: 15px;
+	width: 100vw;
+	padding-right: 10px;
 	margin-right:25px;
 }
 
-
+h1, h2, h3, p {
+	text-align: center;
+}
 
 footer {
 	display: flex;
@@ -205,12 +205,16 @@ footer {
 		align-items: center;
 	}
 
-	h1, h2, h3, p {
-		text-align: center;
-	}
-
 	.img1, .img2, .img3, .img4 {
 		width: 90%;
+	}
+
+	.newsletter {
+		padding: 40px 10px;
+	}
+
+	.action {
+		padding: 0;
 	}
 }
 
@@ -222,6 +226,7 @@ footer {
 
 	.products {
 		width: 100%;
+		padding: 0;
 	}
 	
 	.more-info {
@@ -230,5 +235,9 @@ footer {
 		justify-content: center;
 		width: 100%;
 		padding: 0;
+	}
+	
+	.sign-up {
+		padding: 10px;
 	}
 }
