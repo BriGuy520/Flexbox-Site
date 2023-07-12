@@ -32,7 +32,7 @@ nav {
 }
 
 a {
-	color:  #33ffcc;
+	color:  #f54d4d;
 	text-decoration: none;
 	padding: 15px;
 
@@ -41,6 +41,7 @@ a {
 .sign-up {
 	background: #4db8ff;
 	text-align: center;
+	border-radius: 10px;
 	margin-left: 10px;
 }
 
@@ -59,7 +60,7 @@ li {
 	align-items: center;
 	padding: 50px;
 	height: 100vh;
-	color:  #33ffcc;
+	color: #f54d4d;
 	margin: 0 auto;
 	background: url(../images/mountain-view.jpg);
 	background-size: cover;
@@ -148,15 +149,19 @@ li {
 hr {
 	width: 25%;
 	border-top: 2px solid #4db8ff;
-	margin-bottom: 30px;
+	margin: 30px 0;
 }
 
 .services, .newsletter {
-	background-color: #d1d1e0;
+	background-color: #f4f4f4;
 }
 
 input {
 	padding: 10px 20px;
+}
+
+.action input {
+	border-radius: 10px;
 }
 
 .action {
